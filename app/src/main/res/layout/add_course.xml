@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/thongtinGD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:padding="10dp"
+        android:text="Thêm Khoá Học"
+        android:textAlignment="center"
+        android:textColor="@color/whiteTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/etNameCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/khoahoc"
+            android:drawablePadding="15dp"
+            android:hint="Tên khoá học"
+            android:padding="10dp"
+            android:textColor="@color/color3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvStartDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="15dp"
+            android:hint="Ngày bắt đầu"
+            android:padding="10dp"
+            android:textColor="@color/color3"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/etNameTutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_tutor"
+            android:drawablePadding="15dp"
+            android:hint="Tên giảng viên"
+            android:padding="10dp"
+            android:textColor="@color/color3"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/btnConfirmAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border2"
+                android:text="Xác nhận"
+                android:textColor="@color/whiteTextColor" />
+
+            <Button
+                android:id="@+id/btnAddRe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border2"
+                android:text="Nhập lại"
+                android:textColor="@color/whiteTextColor" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

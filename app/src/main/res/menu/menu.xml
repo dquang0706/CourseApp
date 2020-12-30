@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/khoaHoc"
+            android:icon="@drawable/khoahoc"
+            android:title="Khoá học" />
+
+        <item
+            android:id="@+id/gioiThieu"
+            android:icon="@drawable/gioi_thieu"
+            android:title="Giới thiệu" />
+        <item
+            android:id="@+id/doimatkhau"
+            android:icon="@drawable/ic_password"
+            android:title="Đổi mật khẩu"/>
+        <item
+            android:id="@+id/tintuc"
+            android:icon="@drawable/ic_newsmenu"
+            android:title="Tin tức giáo dục"/>
+        <item
+            android:id="@+id/ggMap"
+            android:icon="@drawable/ic_map"
+            android:title="Bản đồ cơ sở học"/>
+        <item
+            android:id="@+id/thoat"
+            android:icon="@drawable/quit"
+            android:title="Thoát" />
+
+
+    </group>
+</menu>
